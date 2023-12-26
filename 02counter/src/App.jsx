@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
  let [counter,setCounter]= useState(7)
- /*useState is a hook , between () we have to give default variable value (here variable is couunter and we are setting 7 as its default value)
+ /*useState is a hook , between () we have to give default variable value (here variable is counter and we are setting 7 as its default value)
  useState gives two values in array format [] , 0th index is a value , and 1st index is a function , we can write any name for both 
   */
 
