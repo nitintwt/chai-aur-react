@@ -10,6 +10,7 @@ export const ThemeContext = createContext({
 export const ThemeProvider=ThemeContext.Provider
 
 // custom hook
+// useTheme that uses the useContext hook from React to access the values from the ThemeContext
 export default function useTheme(){
   return useContext(ThemeContext)
 }
